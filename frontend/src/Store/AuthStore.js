@@ -3,7 +3,7 @@ import axios from 'axios'
 
 axios.defaults.withCredentials = true;
 
-const API_URI  = 'http://localhost:5000/api/auth'
+const API_URI  = import.meta.env.MODE==='development'?'http://localhost:5000/api/auth':'/api/auth'
 const AuthStore = (set)=>({
 user : null,
 isloading: false,
