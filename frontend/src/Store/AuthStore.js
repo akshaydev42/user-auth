@@ -55,7 +55,7 @@ checkAuth: async ()=>{
     const response = await axios.post(`${API_URI}/login`, {email, password})
     set((state)=>({user:response.data.user, isloading:false, isAuthenticated:true}))
     }catch(error){
-    set((state)=>({error:error.reponse.data.message, isloading:false, isAuthenticated:false}))
+    set((state)=>({error:error.response.data.message, isloading:false, isAuthenticated:false}))
     throw Error
     }
   },
