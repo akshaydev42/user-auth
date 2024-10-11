@@ -38,7 +38,7 @@ const handleSubmit = async ()=>{
          <h2 className = 'mb-4 text-3xl font-bold text-center bg-gradient-to-r from-blue-500 to-blue-800 text-transparent bg-clip-text'>Reset Password</h2>
          <Input
          icon = {RiLockPasswordLine}
-         type = 'text'
+         type = 'password'
          placeholder = 'New Password'
          value = {password}
          onChange = {(e)=>(setPassword(e.target.value))}
@@ -46,7 +46,7 @@ const handleSubmit = async ()=>{
          />
           <Input
          icon = {RiLockPasswordLine}
-         type = 'text'
+         type = 'password'
          placeholder = 'Confirm New Password'
          value = {confirmPassword}
          onChange = {(e)=>(setConfirmPassword(e.target.value))}
