@@ -1,0 +1,8 @@
+declare module 'express'
+declare module 'cors'
+declare module 'jsonwebtoken'
+declare module 'nodemailer'
+declare module 'bcryptjs'
+declare module 'crypto'
+declare module 'cookie-parser'
+declare module 'mongoose'
