@@ -1,5 +1,5 @@
 ##          USER AUTHENTICATION APP
-\This app allows users to create an account, verify it via email, log in, reset their password, and manage their profile, all protected by JWT tokens\
+\This app allows users to create an account, verify it via email, log in, reset their password, and manage their profile, all protected by JWT tokens
 
 ### Setup .env file
 `MONGO_URI = your_mongo_uri
